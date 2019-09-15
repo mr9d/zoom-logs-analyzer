@@ -1,0 +1,30 @@
+.page {
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: none;
+}
+
+.dropzone {
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.card-header:hover,
+.card-header:visited:hover,
+.card-header:focus {
+    text-decoration: none;
+}
+
+.card-body strong {
+    opacity: 0.5;
+}
